@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    background: url(https://th.bing.com/th/id/R.7049f96a7ab04d4ffe56f6b7a180dd31?rik=KXuBl64z1lEW%2fw&riu=http%3a%2f%2fwww.solofondos.com%2fwp-content%2fuploads%2f2015%2f11%2fFondos-para-paginas-web-profesionales-3D.jpg&ehk=lWv3MXhrf5twGIElvqeFkf1879q3Y4fb8nZFCm8U5hQ%3d&risl=&pid=ImgRaw&r=0);
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+
+.logo{
+    font-size: 40px;
+    text-shadow: 5px 5px 5px red;
+    color: blue;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    color: azure;
+}
+
+
+li{
+    margin: 20px;
+    background: linear-gradient(rgba(69, 69, 172, .60), rgba(187, 45, 45, .60));
+    border-radius: 10px;  
+    padding: 10px;  
+}
+
+
+.caja{
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cajita{
+    background: linear-gradient(rgba(69, 69, 172, 0.514), rgba(187, 45, 45, .60));
+    border-radius: 50px; 
+    padding: 30px;
+    color: aliceblue;
+
+}
+
+/* el position relative encima los objetos. borra y deja cualquiera de las dos posiciones para entender su funcionamiento, actualmente la imagen de whats app se le estan aplicando dos positon contradictorias */
+.relative{
+    position: relative;
+    left: 800px;
+    bottom: 900px;
+    position: fixed;
+    }
+
+/* align define si es arriba abajo al centro: center end  */
+main{
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+ 
+}
+
+/* el height define si abarca el 30% del main o el 100% etc a lo ALTO. el width si abarca que porcentaje pero a lo ancho
+
+background attachment fixed, fija la imagen en forma de ventana
+
+*/
+.paralax{
+    height: 30vh; 
+    width:80% ;
+    margin: auto;
+    background: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    justify-content: center;
+    }
+
+
+.paralax p{
+        color: rgba(41, 116, 182, 0.753);
+    align-items: center;
+    font-size: 200px;
+}

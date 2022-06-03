@@ -1,0 +1,131 @@
+		HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+<div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, laboriosam amet! Eos, dicta? Tenetur, qui! Officiis iure recusandae enim ducimus doloribus consequatur. Tenetur aspernatur, quos illo officia similique omnis eius expedita. Aspernatur, delectus 
+    </p>
+
+    <p>
+        2
+    </p>
+
+    <p>
+        3
+    </p>
+
+
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+		CSS
+
+
+p{
+    border: solid 2px blue;
+}
+
+div{
+    border: solid 3px red;
+    background-color: rgb(88, 194, 115);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 15%;
+    overflow: auto;
+}
+
+______________________________________________
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+<div>
+        
+    <img src="img/lola.png" alt="">
+        
+
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+p{
+    border: solid 2px blue;
+}
+
+div{
+    border: solid 3px red;
+    background-color: rgb(88, 194, 115);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 20%;
+    }
+
+img{
+    width: 100%;
+}
+
+
+________________________________________________
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    background: url(https://th.bing.com/th/id/R.7049f96a7ab04d4ffe56f6b7a180dd31?rik=KXuBl64z1lEW%2fw&riu=http%3a%2f%2fwww.solofondos.com%2fwp-content%2fuploads%2f2015%2f11%2fFondos-para-paginas-web-profesionales-3D.jpg&ehk=lWv3MXhrf5twGIElvqeFkf1879q3Y4fb8nZFCm8U5hQ%3d&risl=&pid=ImgRaw&r=0);
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+
